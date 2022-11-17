@@ -593,3 +593,7 @@ func (c *Client) NewOpenInterestStatisticsService() *OpenInterestStatisticsServi
 func (c *Client) NewLongShortRatioService() *LongShortRatioService {
 	return &LongShortRatioService{c: c}
 }
+
+func (c *Client) NewChangeMultiAssetsMarginModeService() *ChangeMultiAssetsMarginModeService {
+	return &ChangeMultiAssetsMarginModeService{c: c}
+}
